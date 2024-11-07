@@ -1,0 +1,87 @@
+Filetype: IR signals file
+Version: 1
+#
+name: Power ON
+type: parsed
+protocol: NECext
+address: 87 7C 00 00
+command: 25 DA 00 00
+#
+name: Power OFF
+type: parsed
+protocol: NECext
+address: 87 7C 00 00
+command: C8 37 00 00
+#
+name: Vol_plus
+type: parsed
+protocol: NECext
+address: 87 7C 00 00
+command: 88 77 00 00
+#
+name: Vol_moins
+type: parsed
+protocol: NECext
+address: 87 7C 00 00
+command: 8C 73 00 00
+#
+name: Mute
+type: parsed
+protocol: NECext
+address: 87 7C 00 00
+command: 94 6B 00 00
+#
+name: OPT1
+type: parsed
+protocol: NECext
+address: 87 7C 00 00
+command: 89 76 00 00
+#
+name: OPT2
+type: parsed
+protocol: NECext
+address: 87 7C 00 00
+command: 8D 72 00 00
+#
+name: COAX
+type: parsed
+protocol: NECext
+address: 87 7C 00 00
+command: 85 7A 00 00
+#
+name: USB
+type: parsed
+protocol: NECext
+address: 87 7C 00 00
+command: 91 6E 00 00
+#
+name: AUX1
+type: parsed
+protocol: NECext
+address: 87 7C 00 00
+command: 9B 64 00 00
+#
+name: AUX2
+type: parsed
+protocol: NECext
+address: 87 7C 00 00
+command: C0 3F 00 00
+# 
+name: BT
+type: parsed
+protocol: NECext
+address: 87 7C 00 00
+command: C2 3D 00 00
+#
+name: Input Next
+type: parsed
+protocol: NECext
+address: 87 7C 00 00
+command: 1A E5 00 00
+#
+name: Input Prev
+type: parsed
+protocol: NECext
+address: 87 7C 00 00
+command: 1D E2 00 00
+#
